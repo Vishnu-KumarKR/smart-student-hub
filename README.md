@@ -104,24 +104,7 @@ curl -X POST http://localhost:5000/api/auth/register \\
 \`\`\`
 3. Log in using `admin@example.com` and `password123`.
 
-## 🚢 Deployment Guidelines
-
-### Backend (Render / Railway)
-1. Push your code to GitHub.
-2. Link the repository to Render/Railway.
-3. Set the root directory to `backend`.
-4. Set the Build Command: `npm install`
-5. Set the Start Command: `node server.js`
-6. Add environment variables (`MONGODB_URI`, `JWT_SECRET`, etc.).
-
-### Frontend (Vercel / Netlify)
-1. Link your repository to Vercel/Netlify.
-2. Set the root directory to `frontend`.
-3. Framework Preset: Vite
-4. Build Command: `npm run build`
-5. Output Directory: `dist`
-6. Ensure your backend URL is properly updated in `frontend/src/services/api.js`.
 
 ---
 
-**Developed for technical assignment.**
+**© 2026[Vishnu Kumar K R].Licensed under MIT.**
